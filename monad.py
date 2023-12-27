@@ -2,7 +2,7 @@
 I implemented an option type from Scala in Python.
 The below example function takes an arbitrary key and will check for it.
 Depending on whether it exists or not, it will implement logic.
-This allows modularity depending on whether the key exists or not.
+This allows reusability and can be used to test general classes of dictionary structures for consistency.
 It could be used to create a default key value pair if one is missing.
 """
 
