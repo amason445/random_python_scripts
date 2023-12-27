@@ -1,2 +1,2 @@
 # random_python_scripts
- A Collection of Random Scripts
+This is a collection of random Python scripts. I'll index it someday.
