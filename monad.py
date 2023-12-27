@@ -1,5 +1,5 @@
 """
-I implemented an option type from Scala in Python.
+I implemented an option type from Scala in Python for dictionaries.
 The below example function takes an arbitrary key and will check for it.
 Depending on whether it exists or not, it will implement logic.
 This allows reusability and can be used to test general classes of dictionary structures for consistency.
