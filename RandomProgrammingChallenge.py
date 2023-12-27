@@ -31,6 +31,8 @@ for i in cities:
 
 print(countries) 
 
+# Outputs: ['France', 'Germany', 'Switzerland', 'Italy', 'UAE', 'Thailand', 'Japan', 'United States']
+
 # Bonus Challenge: How could you count the number of cities you'll visit in each country?
 citiesPerCountry = defaultdict(lambda: 0)
 
@@ -38,6 +40,8 @@ for i in cities:
     citiesPerCountry[i['country']] += 1
 
 print(dict(citiesPerCountry))
+
+# Outputs: {'France': 2, 'Germany': 1, 'Switzerland': 1, 'Italy': 1, 'UAE': 1, 'Thailand': 2, 'Japan': 2, 'United States': 2}
 
 # How many different ways can you think of?
 # You could also do something tuples and zip
